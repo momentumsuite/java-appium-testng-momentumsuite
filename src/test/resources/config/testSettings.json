@@ -1,0 +1,31 @@
+{
+  "CLOUD": {
+    "momentum.user": "okan@asseco-see.com",
+    "momentum.token": "u6tYhEe4RAR37WM3pMKIMaDaCQkKlAjQ6pT0JYQCQIU=",
+    "momentum.host": "http://momentumv2.mobven.com:8088/wd/hub",
+    "ios": {
+      "momentum.app": "https://momentumsuite.com/downloads/Calculator-v1.ipa",
+      "momentum.deviceList": [
+        4004
+      ]
+    },
+    "android": {
+      "momentum.app": "ms://d894784d8a6245b68e93a6dc07134586",
+      "momentum.deviceList": [
+        4001,
+        4041
+      ]
+    }
+  },
+  "LOCAL": {
+    "host": "http://127.0.0.1:4723/wd/hub",
+    "ios": {
+      "app": "https://momentumsuite.com/downloads/Calculator-v1.ipa",
+      "deviceName": "iPhone 13"
+    },
+    "android": {
+      "app": "https://momentumsuite.com/downloads/My-Bank-Wallet-v1.apk",
+      "deviceName": "emulator-5554"
+    }
+  }
+}

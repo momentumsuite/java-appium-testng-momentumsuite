@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Parallel" thread-count="2" parallel="tests">
+    <test name="ParallelTestGalaxyA32">
+        <parameter name="deviceIndex" value="0"/>
+        <classes>
+            <class name="parallelTest.androidParallelTest"/>
+        </classes>
+    </test>
+
+    <test name="ParallelTestGalaxyS10Lite">
+        <parameter name="deviceIndex" value="1"/>
+        <classes>
+            <class name="parallelTest.androidParallelTest"/>
+        </classes>
+    </test>
+</suite>
