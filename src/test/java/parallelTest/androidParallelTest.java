@@ -71,8 +71,7 @@ public class androidParallelTest {
     @Test()
     public void successfullyLoginTest() throws Exception {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(usernameField)).click();
-        driver.findElement(usernameField).sendKeys("first@mobven.com");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(usernameField)).sendKeys("first@mobven.com");
         driver.hideKeyboard();
         driver.findElement(passwordField).sendKeys("Pass321*");
         driver.findElement(loginButton).click();
