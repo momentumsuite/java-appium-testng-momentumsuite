@@ -22,7 +22,7 @@ import java.util.HashMap;
 public class iosSafariTest {
     public IOSDriver driver;
     public WebDriverWait wait;
-    public String momentumUser, momentumToken, momentumHost;
+    public String momentumUser, momentumToken, momentumHost, remoteDebugProxy;
     public Long momentumIOSDeviceId;
     By elSearchButton = By.id("searchIcon");
     By elSearchText = By.xpath("//input[@name='search']");
@@ -41,6 +41,7 @@ public class iosSafariTest {
             momentumToken = (String) cloudJson.get("momentum.token");
             momentumHost = (String) cloudJson.get("momentum.host");
             momentumIOSDeviceId = (Long) deviceList.get(0);
+            remoteDebugProxy = String.valueOf(momentumIOSDeviceId + 2000);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -58,6 +59,7 @@ public class iosSafariTest {
         capabilities.setCapability("appium:locale", "en");
         capabilities.setCapability("appium:deviceName", "");
         capabilities.setCapability("appium:udid", "");
+        capabilities.setCapability("appium:remoteDebugProxy", remoteDebugProxy);
         driver = new IOSDriver(new URL(momentumHost), capabilities);
     }
 

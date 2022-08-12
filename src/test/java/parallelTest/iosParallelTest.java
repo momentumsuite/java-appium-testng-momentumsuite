@@ -21,7 +21,7 @@ import java.util.HashMap;
 public class iosParallelTest {
     public IOSDriver driver;
     public WebDriverWait wait;
-    public String momentumUser, momentumToken, momentumHost, momentumIOSApp;
+    public String momentumUser, momentumToken, momentumHost, momentumIOSApp, remoteDebugProxy;
     public Long momentumIOSDeviceId;
     By elOne = By.xpath("(//*[contains(@label , '2')])[1]");
     By elTwo = By.xpath("//XCUIElementTypeButton[@name='+']");
@@ -43,6 +43,7 @@ public class iosParallelTest {
             momentumHost = (String) cloudJson.get("momentum.host");
             momentumIOSApp = (String) mobileJson.get("momentum.app");
             momentumIOSDeviceId = (Long) deviceList.get(deviceIndex);
+            remoteDebugProxy = String.valueOf(momentumIOSDeviceId + 2000);
             System.out.println("DEVICE is : " + momentumIOSDeviceId);
         } catch (Exception e) {
             e.printStackTrace();
@@ -63,6 +64,7 @@ public class iosParallelTest {
         capabilities.setCapability("appium:app", momentumIOSApp);
         capabilities.setCapability("appium:fullReset", true);
         capabilities.setCapability("appium:noReset", false);
+        capabilities.setCapability("appium:remoteDebugProxy", remoteDebugProxy);
         driver = new IOSDriver(new URL(momentumHost), capabilities);
     }
 
