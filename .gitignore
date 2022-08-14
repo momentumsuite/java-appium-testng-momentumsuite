@@ -12,3 +12,4 @@ buildNumber.properties
 .idea/
 allure-results
  testSettings.json
+src/test/resources/config/testSettings.json
