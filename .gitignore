@@ -11,3 +11,5 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 .idea/
 allure-results
+ testSettings.json
+src/test/resources/config/testSettings.json

@@ -23,7 +23,7 @@ public class iosFirstTest {
     public WebDriverWait wait;
     public String momentumUser, momentumToken, momentumHost, momentumIOSApp, remoteDebugProxy;
     public Long momentumIOSDeviceId;
-    By elOne = By.xpath("(//*[contains(@label , '2')])[1]");
+    By elOne = By.xpath("(//*[contains(@label , '2') or contains(@name , '2') or contains(@value , '2')])[1]");
     By elTwo = By.xpath("//XCUIElementTypeButton[@name='+']");
     By elThree = By.xpath("//XCUIElementTypeButton[@name='5']");
     By elFour = By.xpath("//XCUIElementTypeButton[@name='=']");
