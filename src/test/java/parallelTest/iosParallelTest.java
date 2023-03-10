@@ -58,7 +58,7 @@ public class iosParallelTest {
         capabilities.setCapability("appium:automationName", "XCUITest");
         capabilities.setCapability("appium:autoAcceptAlerts", true);
         capabilities.setCapability("appium:language", "en");
-        capabilities.setCapability("appium:locale", "en");
+        capabilities.setCapability("appium:locale", "US");
         capabilities.setCapability("appium:deviceName", "");
         capabilities.setCapability("appium:udid", "");
         capabilities.setCapability("appium:app", momentumIOSApp);
