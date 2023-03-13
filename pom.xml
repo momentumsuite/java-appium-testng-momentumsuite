@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.momentumsuite</groupId>
+    <groupId>com.momentumsuite</groupId> 
     <artifactId>Java-Appium-TestNG-MomentumSuite</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -12,33 +12,33 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <aspectj.version>1.9.9.1</aspectj.version>
-        <selenium.version>4.8.1</selenium.version>
-        <java.client>8.3.0</java.client>
-        <testng>7.7.1</testng>
-        <allure.testng>2.21.0</allure.testng>
+        <selenium.version>4.8.1</selenium.version> 
+        <java.client>8.3.0</java.client> 
+        <testng>7.7.1</testng> 
+        <allure.testng>2.21.0</allure.testng> 
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
+            <version>${selenium.version}</version> 
         </dependency>
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
-            <version>${java.client}</version>
+            <version>${java.client}</version> 
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>${testng}</version>
+            <version>${testng}</version> 
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>${allure.testng}</version>
+            <version>${allure.testng}</version> 
             <scope>test</scope>
         </dependency>
         <dependency>

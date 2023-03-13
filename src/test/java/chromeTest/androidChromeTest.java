@@ -58,7 +58,7 @@ public class androidChromeTest {
         capabilities.setCapability("appium:browserName", "Chrome");
         capabilities.setCapability("appium:autoGrantPermissions", true);
         capabilities.setCapability("appium:language", "en");
-        capabilities.setCapability("appium:locale", "US");
+        capabilities.setCapability("appium:locale", "US"); 
         capabilities.setCapability("appium:deviceName", "");
         capabilities.setCapability("appium:udid", "");
         driver = new AppiumDriver(new URL(momentumHost), capabilities);
