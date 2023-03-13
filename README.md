@@ -12,8 +12,11 @@
   * Parallel testing on multi mobile devices
   * Local testing or using Momentum Suite's 150+ Android or iOS devices
   * Auto generated HTML [Allure](https://docs.qameta.io/allure/) test report after test
+
+## Info
+  * Branch to Appium 2.0 You can visit Click [here](https://github.com/momentumsuite/java-appium-testng-momentumsuite/tree/appium2)
   
-  ## Setup
+## Setup
 
 **Requirements:**
 
