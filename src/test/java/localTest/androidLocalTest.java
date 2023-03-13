@@ -46,7 +46,7 @@ public class androidLocalTest {
         capabilities.setCapability("appium:automationName", "UIAutomator2");
         capabilities.setCapability("appium:autoGrantPermissions", true);
         capabilities.setCapability("appium:language", "en");
-        capabilities.setCapability("appium:locale", "US");
+        capabilities.setCapability("appium:locale", "en");
         capabilities.setCapability("appium:app", localAndroidApp);
         capabilities.setCapability("appium:deviceName", localAndroidDeviceName);
         capabilities.setCapability("appium:fullReset", true);
