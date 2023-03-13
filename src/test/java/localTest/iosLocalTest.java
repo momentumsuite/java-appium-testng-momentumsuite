@@ -45,7 +45,7 @@ public class iosLocalTest {
         capabilities.setCapability("appium:automationName", "XCUITest");
         capabilities.setCapability("appium:autoAcceptAlerts", true);
         capabilities.setCapability("appium:language", "en");
-        capabilities.setCapability("appium:locale", "US");
+        capabilities.setCapability("appium:locale", "en");
         capabilities.setCapability("appium:app", localIOSApp);
         capabilities.setCapability("appium:deviceName", localIOSDeviceName);
         capabilities.setCapability("appium:fullReset", true);
