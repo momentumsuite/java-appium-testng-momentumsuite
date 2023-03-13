@@ -7,6 +7,8 @@
 [TestNG](http://testng.org/) Integration with local or Momentum Suite real mobile farm devices
 
 ## Supports
+  * Appium 2.0 server update has been made in this repository. You can send the appropriate capabilities to Appium 2.0 so that you can run your tests on       devices on the remote server.
+    You can access updated information about Click [here](https://appium.github.io/appium/docs/en/2.0/) Appium 2.0 and more. 
   * Native or Hybrid Android and iOS apps (APK, AAB, IPA)
   * Chrome mobileweb testing on Android devices
   * Safari mobileweb testing on iOS devices
@@ -14,7 +16,7 @@
   * Local testing or using Momentum Suite's 150+ Android or iOS devices
   * Auto generated HTML [Allure](https://docs.qameta.io/allure/) test report after test
   
-  ## Setup
+## Setup
 
 **Requirements:**
 
