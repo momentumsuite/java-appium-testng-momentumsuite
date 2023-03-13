@@ -1,6 +1,7 @@
 # Java Appium TestNG Momentumsuite
-![image](https://user-images.githubusercontent.com/105457661/181139819-f73acae9-1a3b-4841-a536-983004d43cf1.png)
 
+
+![181139819-f73acae9-1a3b-4841-a536-983004d43cf1](https://user-images.githubusercontent.com/72494835/224666883-b63361cc-8bc7-45dc-a36d-1fe4b05f0372.png)
 
 
 [TestNG](http://testng.org/) Integration with local or Momentum Suite real mobile farm devices
